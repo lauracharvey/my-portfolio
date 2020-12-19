@@ -4,6 +4,7 @@
 :root {
   --darkBlue: #222c3b;
   --lightBlue: #9CB9E8;
+  --cream: #e6e6e1;
   --white: #ffffff;
   --gold: #ece4c1;
   --darkGold: #cdc5a8;
@@ -14,9 +15,9 @@
   box-sizing: border-box;
 }
 
-body {
+body, html {
   background-color: var(--white);
-  width: 100vw;
+  width: 100%;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -163,7 +164,7 @@ header {
 // ABOUT
 
 .about {
-  width: 100vw;
+  width: 100%;
   height: 1150px;
   position: absolute;
   top: 100vh;
@@ -187,6 +188,7 @@ header {
   }
 
   img {
+    width: 1600px;
     position: absolute;
     bottom: -190px;
     z-index: 7;
@@ -388,7 +390,7 @@ header {
   color: var(--darkBlue);
 
   .blog-inner {
-    width: 100%;
+    max-width: 1300px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -483,16 +485,18 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: var(--darkBlue);
+  color: var(--cream);
 
   h2 {
     font-size: 50px;
     margin-bottom: 30px;
+    color: var(--darkBlue);
   }
 
   h3 {
     font-size: 30px;
     margin: 30px 0 20px 0;
+    color: var(--darkBlue);
   }
 
   .headshot {
@@ -543,7 +547,7 @@ header {
 
     input {
       height: 40px;
-      border: solid 1px var(--darkBlue);
+      border: solid 1px var(--cream);
       background: none;
       padding: 10px;
       border-radius: 6px;
@@ -555,7 +559,7 @@ header {
     }
 
     ::placeholder {
-      color: #516788;
+      color: var(--darkBlue);
       font-weight: 200;
     }
 
@@ -563,12 +567,13 @@ header {
       outline: 0;
       background: var(--darkBlue);
       color: var(--lightBlue);
+      border: solid 1px var(--darkBlue);
       font-weight: 200;
     }
 
     textarea {
       height: 100px;
-      border: solid 1px var(--darkBlue);
+      border: solid 1px var(--cream);
       background: none;
       padding: 10px;
       border-radius: 6px;
@@ -585,7 +590,7 @@ header {
         height: 40px;
         border-radius: 4px;
         background: none;
-        border: solid 1px var(--darkBlue);
+        border: solid 1px var(--cream);
         font-family: var(--text);
         color: var(--darkBlue);
         font-size: 22px;
@@ -600,6 +605,7 @@ header {
     button:hover {
       background-color: var(--darkBlue);
       color: var(--lightBlue);
+      border: solid 1px var(--darkBlue);
     }
 
     button:focus {
@@ -609,6 +615,30 @@ header {
 }
 
 // MEDIA QUERIES
+
+@media only screen and (min-width: 1600px) {
+  .custom-bg {
+    width: 100%;
+  }
+
+  header {
+    width: 1600px;
+    left: calc( (100vw - 1600px) / 2);
+  }
+
+  .fixed {
+    left: calc( (100vw - 1600px) / 2);
+  }
+
+  .about, .blog-section, .projects, .squid {
+    width: 1600px; 
+    left: calc( (100vw - 1600px) / 2);
+  }
+
+  .fish-level-one {
+    top: 2110px;
+  }
+}
 
 @media only screen and (max-width: 1490px) {
 

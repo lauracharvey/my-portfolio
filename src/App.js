@@ -9,6 +9,7 @@ import Blog from './components/Blog'
 import SquidSlide from './components/Squid'
 import Contact from './components/Contact'
 import Sidebar from './components/Sidebar'
+import { FaAutoprefixer } from 'react-icons/fa'
 
 function App() {
   return <div className="App">
@@ -21,7 +22,7 @@ function App() {
         <img src="https://i.imgur.com/U7QEKVx.png" alt="sea scape" />
       </Background>
       <div
-        style={{ width: '100vw' }}
+        style={{ width: '100%' }}
       >
         <Navbar />
         <About />
