@@ -18,7 +18,7 @@ function App() {
       strength={2000}
     >
       <Background className="custom-bg">
-        <img src="https://i.imgur.com/m9JOIsU.png" alt="sea scape" />
+        <img src="https://i.imgur.com/U7QEKVx.png" alt="sea scape" />
       </Background>
       <div
         style={{ width: '100vw' }}
