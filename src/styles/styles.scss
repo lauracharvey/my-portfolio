@@ -543,9 +543,12 @@ header {
     justify-content: center;
     padding: 20px;
     border-radius: 10px;
-    background: #6AC8C6;
+    background: #222c3be6;
     margin-top: 20px;
-    border: solid 1px var(--darkBlue);
+
+    h3 {
+      color: var(--gold);
+    }
 
     label, input, textarea{
       width: 100%;
@@ -554,44 +557,45 @@ header {
     label {
       font-size: 18px;
       margin: 10px;
+      color: var(--gold);
     }
 
     input {
       height: 40px;
-      border: solid 1px var(--darkBlue);
+      border: solid 1px var(--gold);
       background: none;
       padding: 10px;
       border-radius: 6px;
       font-family: var(--text);
       font-weight: 200;
       font-size: 18px;
-      color: var(--darkBlue);
+      color: var(--gold);
       font-weight: 400;
     }
 
     ::placeholder {
-      color: #4b4b4b;
+      color: var(--darkGold);
       font-weight: 200;
     }
 
     input:focus, textarea:focus {
       outline: 0;
-      background: var(--darkBlue);
-      color: var(--lightBlue);
+      background: var(--gold);
+      color: var(--darkBlue);
       border: solid 1px var(--darkBlue);
       font-weight: 200;
     }
 
     textarea {
       height: 100px;
-      border: solid 1px var(--darkBlue);
+      border: solid 1px var(--gold);
       background: none;
       padding: 10px;
       border-radius: 6px;
       font-family: var(--text);
       font-weight: 200;
       font-size: 18px;
-      color: var(--darkBlue);
+      color: var(--gold);
       font-weight: 400;
     }
 
@@ -601,9 +605,9 @@ header {
         height: 40px;
         border-radius: 4px;
         background: none;
-        border: solid 1px var(--darkBlue);
+        border: solid 1px var(--gold);
         font-family: var(--text);
-        color: var(--darkBlue);
+        color: var(--gold);
         font-size: 22px;
         font-weight: 200;
         margin: 30px 0 0 0;
@@ -614,8 +618,8 @@ header {
     }
 
     button:hover {
-      background-color: var(--darkBlue);
-      color: var(--lightBlue);
+      background-color: var(--gold);
+      color: var(--darkBlue);
       border: solid 1px var(--darkBlue);
     }
 
@@ -928,8 +932,6 @@ header {
 
   .contact {
     top: 8500px;
-    background: rgba(48, 130, 128, 0.9);
-    padding: 0 0 300px 0;
   }
 
 }
