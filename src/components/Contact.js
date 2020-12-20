@@ -40,9 +40,8 @@ const Contact = () => {
       </a>
     </div>
 
-    <h3>Send me an Email</h3>
-
     <form action="https://formspree.io/mdowbzpn" method="POST">
+    <h3>Send me an Email</h3>
       <label>Your Name</label>
       <input name="name" type="text" placeholder="Laura Harvey"></input>
       <label>Your Email Address</label>

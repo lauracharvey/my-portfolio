@@ -87,10 +87,10 @@ const Projects = () => {
           </div>
         </div>
         <p>
-          Devs.Map started off as a dating app but turned into a social media platform for Developers to find each other, chat and collaborate.
+          Devs.Map is a social media platform for Developers to find each other, chat and collaborate.
           </p>
         <p>
-          When we realised our original idea wasn't going to work as planned, I quickly came up with the idea and data for Devs.Map. I created the seed data using 'famous' Developers and Computer Scientists. I supported my peers in building out the backend and then designed and built the majority of the React.js frontend and did all Sass work.
+          I came up with the idea and data for Devs.Map, created the seed data using 'famous' Developers and Computer Scientists. I supported my peers in building out the backend and then designed and built the majority of the React.js frontend and did all Sass work.
         </p>
 
         <div className="button-container">
