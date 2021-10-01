@@ -14,7 +14,7 @@ export default class About extends Component {
         <h2>About Me</h2>
         <h3>If a unicorn is a designer/developer hybrid then I am a “mermaid” - a lady developer with excellent people skills.</h3>
         <p>My non-tech roles have allowed me to develop exceptional soft skills and become a superb communicator. I bring passion, determination and kindness to any role I undertake.<br></br>
-    I took on a role in DevRel after graduating from the Software Engineering Immersive with General Assembly unfortunately it isn't what I expected so I am now looking for a full time development role with mentorship and room to grow. I really love the creativity and visual aspects of Front End and would like the opportunity to explore more about UI/UX.<br><br/>
+    I took on a role in DevRel after graduating from General Assembly, it wasn't quite what I expected. I now have an additional 6 months experience as a Full Stack Developer. I am about to take on the biggest job of them all...motherhood. I am therefore looking for a flexible role to allow me the time to care for my little one and develop my skills further. I am open to both freelance and permanent oppotunities.<br><br/>
     My favourite things are: programming, being nice to people, dirt bikes, birthday cake and seeing the underdog triumph.
       </p>
       </div>
